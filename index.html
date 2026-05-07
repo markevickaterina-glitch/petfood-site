@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetFood Hub - Магазин кормів для тварин</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Навігація -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">🐾 PetFood Hub</div>
+            <ul class="nav-links">
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#products">Товари</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Героїчна секція -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>PetFood Hub</h1>
+            <p>Якісні корми для собак та котів</p>
+            <button class="btn" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">Перейти до товарів</button>
+        </div>
+    </section>
+
+    <!-- Товари -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Наші товари</h2>
+            <div class="product-grid">
+                <!-- Корм для собак -->
+                <div class="product-card">
+                    <div class="product-icon">🐕</div>
+                    <h3>Premium Dog Food</h3>
+                    <p>Поживний корм для дорослих собак. Містить м'ясо, овочі та вітаміни.</p>
+                    <span class="price">450 грн</span>
+                    <button class="btn" style="width: 100%; margin-top: 1rem;" onclick="alert('Спасибі за покупку! Ваше замовлення прийнято.')">Купити</button>
+                </div>
+
+                <!-- Корм для котів -->
+                <div class="product-card">
+                    <div class="product-icon">🐱</div>
+                    <h3>Premium Cat Food</h3>
+                    <p>Смачний корм для котів. Посилює здоров'я шерсті та сприяє гарному травленню.</p>
+                    <span class="price">380 грн</span>
+                    <button class="btn" style="width: 100%; margin-top: 1rem;" onclick="alert('Спасибі за покупку! Ваше замовлення прийнято.')">Купити</button>
+                </div>
+
+                <!-- Корм для цуценят -->
+                <div class="product-card">
+                    <div class="product-icon">🐕</div>
+                    <h3>Puppy Formula</h3>
+                    <p>Спеціальний корм для цуценят. Розвиває міцні кістки та здоровий розвиток.</p>
+                    <span class="price">520 грн</span>
+                    <button class="btn" style="width: 100%; margin-top: 1rem;" onclick="alert('Спасибі за покупку! Ваше замовлення прийнято.')">Купити</button>
+                </div>
+
+                <!-- Корм для кошенят -->
+                <div class="product-card">
+                    <div class="product-icon">🐱</div>
+                    <h3>Kitten Formula</h3>
+                    <p>Спеціальна формула для молодих котиків. Підтримує розвиток імунітету.</p>
+                    <span class="price">410 грн</span>
+                    <button class="btn" style="width: 100%; margin-top: 1rem;" onclick="alert('Спасибі за покупку! Ваше замовлення прийнято.')">Купити</button>
+                </div>
+
+                <!-- Сухий корм для собак -->
+                <div class="product-card">
+                    <div class="product-icon">🐕</div>
+                    <h3>Dry Dog Food</h3>
+                    <p>Економічний сухий корм з м'яса птиці. Довготривале зберігання.</p>
+                    <span class="price">350 грн</span>
+                    <button class="btn" style="width: 100%; margin-top: 1rem;" onclick="alert('Спасибі за покупку! Ваше замовлення прийнято.')">Купити</button>
+                </div>
+
+                <!-- Сухий корм для котів -->
+                <div class="product-card">
+                    <div class="product-icon">🐱</div>
+                    <h3>Dry Cat Food</h3>
+                    <p>Якісний сухий корм для котів. Чистить зуби та поліпшує травлення.</p>
+                    <span class="price">330 грн</span>
+                    <button class="btn" style="width: 100%; margin-top: 1rem;" onclick="alert('Спасибі за покупку! Ваше замовлення прийнято.')">Купити</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Про нас -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Про PetFood Hub</h2>
+            <p>Ми - надійний магазин кормів для улюблених вихованців. Пропонуємо тільки якісні та поживні корми для собак та котів. Ваш улюблений домашній улюбленець заслуговує найкращого!</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <span class="feature-icon">✅</span>
+                    <h4>Якість гарантована</h4>
+                    <p>Всі корми - перевірені та сертифіковані</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">🚚</span>
+                    <h4>Швидка доставка</h4>
+                    <p>Доставляємо по Україні за 2-3 дні</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">💰</span>
+                    <h4>Вигідні ціни</h4>
+                    <p>Найбільш конкурентні ціни на ринку</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">📞</span>
+                    <h4>Консультація 24/7</h4>
+                    <p>Наші експерти завжди готові допомогти</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакти -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Контакти</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>📍 Адреса</h4>
+                    <p>вул. Петрівська, 45<br>Київ, 02000</p>
+                </div>
+                <div class="contact-item">
+                    <h4>📞 Телефон</h4>
+                    <p>+38 (095) 123-45-67<br>+38 (067) 987-65-43</p>
+                </div>
+                <div class="contact-item">
+                    <h4>📧 Email</h4>
+                    <p>info@petfoodhub.ua<br>shop@petfoodhub.ua</p>
+                </div>
+                <div class="contact-item">
+                    <h4>🕐 Час роботи</h4>
+                    <p>Пн-Пт: 09:00 - 18:00<br>Сб-Нд: 10:00 - 17:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 PetFood Hub. Всі права захищені. 🐾</p>
+        </div>
+    </footer>
+</body>
+</html>
